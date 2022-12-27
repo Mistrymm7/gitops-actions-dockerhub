@@ -8,6 +8,8 @@ app.config['REDIS_URL'] = 'redis://redis:6379/0'
 
 redis = FlaskRedis(app)
 
+# just a change
+
 
 @app.route('/')
 def counter():
